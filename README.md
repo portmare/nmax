@@ -1,5 +1,7 @@
 # Nmax
 
+[![Build Status](https://travis-ci.org/portmare/nmax.svg?branch=master)](https://travis-ci.org/portmare/nmax)
+
 This script searches for a specified count of maximum numbers in STDIN from the console or in the application for the object supporting the `each_line` method, for example, from a file.
 
 There are restrictions:
