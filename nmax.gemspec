@@ -10,10 +10,11 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'This script searches for a specified count of maximum numbers in STDIN'
   spec.description   = 'This script searches for a specified count of maximum numbers in STDIN'
-  spec.homepage      = 'https://github.com/portmare/nmax'
+  spec.homepage      = 'https://rubygems.org/gems/nmax-tool'
+  spec.metadata      = { 'source_code_uri' => 'https://github.com/portmare/nmax' }
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files -z`.split('\x0').reject do |f|
+  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = 'exe'
